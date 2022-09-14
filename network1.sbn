@@ -1,0 +1,57 @@
+NetComm ::
+	CPU ::
+		Brand : Elite Compute Devices
+		Model : ECD3100
+		Cores : 4
+		Threads : 8
+		Clock : 3.6 GHz
+	RAM ::
+		Brand : Ruffair
+		Model : Vengeance
+		Clock : 3200 MHz
+		Size : 8 Gb
+		
+		
+Verner ::
+	CPU ::
+		Brand : Smart Corporation
+		Model : S7-10700k
+		Cores : 8
+		Threads : 16
+		Clock : 3.8 GHz
+
+	RAM ::
+		Brand : Queenston
+		Model : HyperX Fury
+		Clock : 3200 MHz
+		Size : 16 Gb
+
+
+Kyle ::
+	CPU ::
+		Brand : Elite Compute Devices
+		Model : ECD5900X
+		Cores : 12
+		Threads : 24
+		Clock : 3.7 GHz
+
+	RAM ::
+		Brand : Ruffair
+		Model : Vengeance
+		Clock : 3600 MHz
+		Size : 32 Gb
+
+
+Sectrom ::
+	CPU ::
+		Brand : Smart Corporation
+		Model : S5-9500
+		Cores : 6
+		Threads : 6
+		Clock : 3.0 GHz
+
+	RAM ::
+		Brand : Squadgroup
+		Model : TForce
+		Clock : 3200 MHz
+		Size : 16 Gb
