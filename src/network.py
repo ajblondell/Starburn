@@ -18,19 +18,22 @@ class Connection:
 class Router:
     # (!)---fix me---(!):
     # has issue where __init__ is called twice
+    id = random.randint(00000,99999)
     def __init__(self, reserved_ip_file=None):
-        self.id = random.randint(00000,99999)
+        
         if not reserved_ip_file == None:
             self.reserved_ip_file = reserved_ip_file
         else:
             self.reserved_ip_file = self.new_reserved_ip_file()
             
         
-    
-    def new_reserved_ip_file(self):
-        file = f'{self.id}.rtf'
-        open(file,'x')
-
+    @classmethod
+    def new_reserved_ip_file(cls):
+        file = f'{cls.id}.rtf'
+        try:
+            open(file,'x')
+        except:
+            print(f'file creation error\n')
         return file
 
     def gen_ip(self):
